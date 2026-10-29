@@ -1,0 +1,7 @@
+title: Chabert Leo | Portfolio
+description: Portfolio de Léo Chabert, développeur logiciel et développeur ERP.
+lang: fr
+theme: minima
+
+header_pages:
+  - index.md
