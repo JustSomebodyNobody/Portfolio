@@ -19,8 +19,11 @@ permalink: /
       cherche à m’investir durablement dans une entreprise où continuer à
       évoluer.
     </p>
-    <a class="button-link" href="#experience" data-i18n="hero.experience">Mon expérience</a>
-    <a class="button-link secondary" href="#contact" data-i18n="hero.contact">Me contacter</a>
+    <div class="hero-actions">
+      <a class="button-link cv-download" href="{{ '/assets/CV-FR-IT.pdf' | relative_url }}" download="CV-FR-IT.pdf" data-i18n="hero.cv">Télécharger mon CV</a>
+      <a class="button-link secondary" href="#experience" data-i18n="hero.experience">Mon expérience</a>
+      <a class="button-link secondary" href="#contact" data-i18n="hero.contact">Me contacter</a>
+    </div>
   </section>
 
   <section class="section" id="about">
@@ -204,6 +207,7 @@ permalink: /
       "hero.summary": "Développeur ERP et diplômé d’un double Master, je conçois des solutions logicielles de la programmation full-stack à l’intégration métier. Je cherche à m’investir durablement dans une entreprise où continuer à évoluer.",
       "hero.experience": "Mon expérience",
       "hero.contact": "Me contacter",
+      "hero.cv": "Télécharger mon CV",
       "about.eyebrow": "À propos",
       "about.title": "Du jeu vidéo aux logiciels métier",
       "about.summary": "Mon parcours associe programmation de jeux vidéo, développement logiciel et gestion de projet informatique. J’ai travaillé sur des applications Unity et Unreal, des projets VR multijoueurs et des solutions ERP/MES, dans des contextes variés en France et à l’international.",
@@ -272,6 +276,7 @@ permalink: /
       "hero.summary": "An ERP developer with two Master's degrees, I build software from full-stack development to business system integration. I'm looking to grow and invest long-term in a company.",
       "hero.experience": "My experience",
       "hero.contact": "Get in touch",
+      "hero.cv": "Download my CV",
       "about.eyebrow": "About me",
       "about.title": "From video games to business software",
       "about.summary": "My background combines game programming, software development, and IT project management. I have worked on Unity and Unreal applications, multiplayer VR projects, and ERP/MES solutions in a range of settings in France and internationally.",

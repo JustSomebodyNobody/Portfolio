@@ -146,9 +146,17 @@ a:hover {
   line-height: 1.8;
 }
 
+.portfolio .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
 .portfolio .button-link {
   display: inline-block;
-  margin: 12px 10px 0 0;
+  margin: 0;
   padding: 11px 18px;
   border: 1px solid var(--highlight);
   border-radius: 6px;
@@ -158,9 +166,20 @@ a:hover {
   text-decoration: none;
 }
 
+.portfolio .button-link.cv-download {
+  padding: 14px 22px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  font-size: 1.05rem;
+}
+
 .portfolio .button-link:hover {
   color: var(--button-text);
   filter: brightness(0.92);
+}
+
+.portfolio .button-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .portfolio .button-link.secondary {
